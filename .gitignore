@@ -1,0 +1,49 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.python-version
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# Data and generated analysis artifacts
+data/
+**/output/
+**/outputs/
+**/checkpoints/
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.pkl
+*.pickle
+*.joblib
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+~$*
+
