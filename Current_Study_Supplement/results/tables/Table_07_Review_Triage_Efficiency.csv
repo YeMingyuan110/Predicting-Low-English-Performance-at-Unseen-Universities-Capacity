@@ -1,0 +1,16 @@
+﻿model,route,feature_set,calibrator,error_definition,support_capacity,review_budget,review_n,strategy,errors_captured,error_capture_rate
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.05,621,Random,119.03625815808557,0.05003625815808557
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.05,621,Probability_entropy,314.0,0.1319882303488861
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.05,621,TopK_boundary,279.0,0.11727616645649433
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.05,621,Seed_disagreement,291.0,0.1223203026481715
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.05,621,Institution_input_shift,7.0,0.0029424127784783522
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.1,1241,Random,237.88083152042543,0.09999194263153655
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.1,1241,Probability_entropy,630.0,0.2648171500630517
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.1,1241,TopK_boundary,546.0,0.22950819672131148
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.1,1241,Seed_disagreement,572.0,0.24043715846994534
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.1,1241,Institution_input_shift,74.0,0.031105506515342583
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.2,2482,Random,475.76166304085086,0.1999838852630731
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.2,2482,Probability_entropy,1212.0,0.5094577553593947
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.2,2482,TopK_boundary,1013.0,0.42580916351408155
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.2,2482,Seed_disagreement,1124.0,0.4724674232870954
+ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.2,2482,Institution_input_shift,327.0,0.13745271122320302

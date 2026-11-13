@@ -1,51 +1,23 @@
-# Supplementary Code Package
+# Supplementary Materials for the Current Study
 
-This package contains the selected analysis code, model settings, software-environment records, and run provenance supporting the manuscript. Student-level data, trained weights, generated results, figures, notebooks, and manuscript files are not included.
+The current manuscript's supplementary code and selected aggregate results are available in [`Current_Study_Supplement/`](Current_Study_Supplement/README.md).
 
-## Contents
+The package documents the cross-university English performance and low-performance risk analyses, including preprocessing, model comparison, nested probability calibration, group audits, capacity-constrained screening, review triage, and global model interpretation.
 
-```text
-11_Submission_Code_Package/
-├── code/
-│   ├── 01_data_preprocessing/
-│   ├── 02_measurement_and_suitability/
-│   ├── 03_main_model/
-│   ├── 04_baseline_comparison/
-│   ├── 05_ablation_and_task_interaction/
-│   ├── 06_cross_university_generalization/
-│   ├── 07_capacity_constrained_screening/
-│   ├── 08_fairness_and_sdg4/
-│   └── 09_interpretability_and_application/
-├── config/
-├── environment/
-├── provenance/
-└── docs/
-```
+## Package contents
 
-## Key files
+- Analysis scripts and model definitions in `Current_Study_Supplement/code/`
+- The primary study configuration and recorded software versions
+- Selected aggregate tables and figures used to support the manuscript
+- Data handling and reproduction instructions
+- SHA-256 checksums for the release files
 
-- Study protocol: `config/study_protocol.yaml`
-- Main-model parameters: `config/main_model_m2.yaml`
-- Baseline parameters: `config/baseline_models.yaml`
-- Software environments: `environment/ENVIRONMENT_NOTES.md`
-- File-purpose mapping: `docs/FILE_MANIFEST.md`
-- Required external inputs: `docs/EXPECTED_INPUTS.md`
-- Execution sequence: `docs/EXECUTION_GUIDE.md`
-- Integrity checksums: `provenance/SHA256SUMS.csv`
+## Data protection
 
-## Data and model files
+No raw student workbook, student-level analysis frame, per-student out-of-fold predictions, individual SHAP attributions, model checkpoints, training logs, or manuscript drafts are distributed. Reproduction requires authorized access to the source workbook described in the manuscript and local configuration of its path.
 
-No student-level data are redistributed. The source dataset should be obtained from the repository cited in the manuscript. Running the complete workflow additionally requires the fixed university-fold assignment. The interpretation analysis also requires the fitted fold/seed checkpoints and their preprocessing states.
+The ZIP archives at the repository root are retained from an earlier code-package release. `Current_Study_Supplement/` is the authoritative package for the current study files prepared in November 2026.
 
-## Environment records
+## License
 
-The main neural model and the strong baselines were executed in different recorded software environments. Use the separate requirement files under `environment/`; the machine-generated JSON files under `provenance/` remain the authoritative historical records.
-
-## Naming note
-
-Directory names, expected input names, and generated output names in this submission copy were standardized in English. These edits affect paths and filenames only; the analytical procedures were not changed. Consequently, source-code hashes embedded in the historical run manifests refer to the original execution copies, whereas `provenance/SHA256SUMS.csv` records the files distributed in this package.
-
-## Public release
-
-Before depositing this package in a public repository, add the final author metadata, repository citation, persistent identifier, and an appropriate software licence. Do not upload student-level inputs or predictions unless their redistribution is permitted.
-
+The source code and documentation are released under the MIT License in [`LICENSE`](LICENSE). Data access and redistribution are subject to the source provider's terms and the manuscript's Data Availability statement.

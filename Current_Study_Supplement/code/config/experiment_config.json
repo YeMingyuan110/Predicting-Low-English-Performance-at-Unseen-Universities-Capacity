@@ -1,0 +1,48 @@
+{
+  "project_name": "Cross-University English Risk Screening",
+  "data_workbook": "data/source_workbook.xlsx",
+  "data_sheet": "高校学业表现数据",
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "random_seeds": [
+    42,
+    3407,
+    2027
+  ],
+  "primary_feature_set": "T0",
+  "sensitivity_feature_set": "T2",
+  "low_performance_quantile": 0.25,
+  "low_performance_quantile_sensitivity": [
+    0.15,
+    0.35
+  ],
+  "support_capacities": [
+    0.05,
+    0.1,
+    0.2,
+    0.3
+  ],
+  "primary_support_capacity": 0.1,
+  "review_capacities": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "primary_review_capacity": 0.1,
+  "bootstrap_repetitions": 2000,
+  "minimum_group_size": 100,
+  "minimum_group_events": 20,
+  "primary_gradient_booster": "lightgbm",
+  "primary_baseline_models": [
+    "linear",
+    "random_forest",
+    "lightgbm",
+    "xgboost",
+    "catboost"
+  ],
+  "supplementary_models": [
+    "mlp",
+    "tabm"
+  ],
+  "save_student_level_audit_artifacts": false
+}
