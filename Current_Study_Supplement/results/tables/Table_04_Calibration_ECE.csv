@@ -1,4 +1,4 @@
-﻿model,route,calibrator,ECE,students,bins,binning
+model,route,calibrator,ECE,students,bins,binning
 M1-J,J,nested_selected,0.004208879204550081,12411,10,existing equal-frequency bins from Table_04_Calibration_Curve_Data.csv
 TabM,D,nested_selected,0.006699481612668719,12411,10,existing equal-frequency bins from Table_04_Calibration_Curve_Data.csv
 LightGBM,D,nested_selected,0.006731689743811887,12411,10,existing equal-frequency bins from Table_04_Calibration_Curve_Data.csv

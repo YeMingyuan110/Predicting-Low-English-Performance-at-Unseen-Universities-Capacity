@@ -1,4 +1,4 @@
-﻿model,feature_set,route,outer_fold,candidate,selection_n,selection_events,selection_Brier,selected
+model,feature_set,route,outer_fold,candidate,selection_n,selection_events,selection_Brier,selected
 ESD_MTMS_Net_M1,T0,J,1,identity,9928,2559,0.1179951867878659,False
 ESD_MTMS_Net_M1,T0,J,1,platt,9928,2559,0.1178030500504151,True
 ESD_MTMS_Net_M1,T0,J,1,isotonic,9928,2559,0.1183534194496998,False

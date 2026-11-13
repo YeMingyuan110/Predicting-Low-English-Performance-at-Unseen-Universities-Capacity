@@ -1,4 +1,4 @@
-﻿bin,predicted_probability,observed_proportion,n,institutions,model,feature_set,route,calibrator
+bin,predicted_probability,observed_proportion,n,institutions,model,feature_set,route,calibrator
 "(0.0031999999999999997, 0.00541]",0.004965964969634,0.0040257648953301,1242,62,ESD_MTMS_Net_M1,T0,J,nested_selected
 "(0.00541, 0.00693]",0.0059492223114971,0.0048348106365834,1241,78,ESD_MTMS_Net_M1,T0,J,nested_selected
 "(0.00693, 0.0157]",0.0102088538956765,0.0145044319097502,1241,104,ESD_MTMS_Net_M1,T0,J,nested_selected

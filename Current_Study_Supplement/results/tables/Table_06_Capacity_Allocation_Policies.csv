@@ -1,4 +1,4 @@
-﻿capacity,policy,K,Precision_at_K,Recall_at_K,Institution_coverage
+capacity,policy,K,Precision_at_K,Recall_at_K,Institution_coverage
 0.05,P1_global_top_k,621,0.8969404186795491,0.17341220423412204,0.6343283582089553
 0.05,P2_proportional_school_quota,621,0.6392914653784219,0.12359900373599003,0.8656716417910447
 0.1,P1_global_top_k,1241,0.8356164383561644,0.32285180572851807,0.7985074626865671

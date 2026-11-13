@@ -1,4 +1,4 @@
-﻿feature_set,model,comparator,metric,difference_model_minus_comparator,CI_low,CI_high,valid_bootstrap,institutions
+feature_set,model,comparator,metric,difference_model_minus_comparator,CI_low,CI_high,valid_bootstrap,institutions
 T0,ESD_MTMS_Net_M0,ESD_MTMS_Net_M1,RMSE,-0.058239463956185844,-0.12321477733006433,0.0013570733903481578,2000,134
 T0,ESD_MTMS_Net_M0,ESD_MTMS_Net_M1,MAE,0.003963721698491396,-0.05286969874734496,0.06032025568889867,2000,134
 T0,ESD_MTMS_Net_M0,ESD_MTMS_Net_M1,R2,0.002813557666122775,-6.875079325523772e-05,0.005967466513875039,2000,134

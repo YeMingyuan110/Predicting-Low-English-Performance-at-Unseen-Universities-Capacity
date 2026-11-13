@@ -1,4 +1,4 @@
-﻿rank,feature,mean_abs_shap_probability,mean_abs_shap_percentage_points,mean_signed_shap_probability,mean_signed_shap_percentage_points,interpretation,n_students_explained,n_universities_represented
+rank,feature,mean_abs_shap_probability,mean_abs_shap_percentage_points,mean_signed_shap_probability,mean_signed_shap_percentage_points,interpretation,n_students_explained,n_universities_represented
 1,Prior English achievement,0.1933994609042622,19.339946090426217,0.1489028853610571,14.890288536105716,positive values raise the model-estimated probability of low English performance; negative values lower it,1249,134
 2,Prior critical-reading achievement,0.018205339644278,1.820533964427804,0.0104378092489884,1.0437809248988466,positive values raise the model-estimated probability of low English performance; negative values lower it,1249,134
 3,Prior mathematics achievement,0.0168608251158099,1.6860825115809972,0.0120375223921518,1.203752239215188,positive values raise the model-estimated probability of low English performance; negative values lower it,1249,134

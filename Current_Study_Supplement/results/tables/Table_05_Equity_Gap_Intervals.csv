@@ -1,4 +1,4 @@
-﻿dimension,quantity,eligible_groups,max_minus_min,CI_low,CI_high,valid_bootstrap,requested_bootstrap,model,route,feature_set,calibrator,capacity
+dimension,quantity,eligible_groups,max_minus_min,CI_low,CI_high,valid_bootstrap,requested_bootstrap,model,route,feature_set,calibrator,capacity
 Gender,mean_residual,2,0.46615779799290735,0.026330913206431984,1.2011952882816777,2000,2000,ESD_MTMS_Net_M1,J,T0,nested_selected,0.1
 Gender,TPR,2,0.008963622323454212,0.0005344031283741974,0.03730163081590278,2000,2000,ESD_MTMS_Net_M1,J,T0,nested_selected,0.1
 Student_SES,mean_residual,4,6.31060914147425,4.66205322313483,7.948301249745918,2000,2000,ESD_MTMS_Net_M1,J,T0,nested_selected,0.1

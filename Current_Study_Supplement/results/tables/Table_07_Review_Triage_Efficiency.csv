@@ -1,4 +1,4 @@
-﻿model,route,feature_set,calibrator,error_definition,support_capacity,review_budget,review_n,strategy,errors_captured,error_capture_rate
+model,route,feature_set,calibrator,error_definition,support_capacity,review_budget,review_n,strategy,errors_captured,error_capture_rate
 ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.05,621,Random,119.03625815808557,0.05003625815808557
 ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.05,621,Probability_entropy,314.0,0.1319882303488861
 ESD_MTMS_Net_M1,J,T0,nested_selected,TopK_selection_error,0.1,0.05,621,TopK_boundary,279.0,0.11727616645649433

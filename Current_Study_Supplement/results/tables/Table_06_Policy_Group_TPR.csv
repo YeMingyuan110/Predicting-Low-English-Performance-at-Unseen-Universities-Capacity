@@ -1,4 +1,4 @@
-﻿capacity,policy,dimension,group,n,events,TPR
+capacity,policy,dimension,group,n,events,TPR
 0.05,P1_global_top_k,Gender,女,5043.0,1335.0,0.18202247191011237
 0.05,P1_global_top_k,Gender,男,7368.0,1877.0,0.16728822589238146
 0.05,P1_global_top_k,Student_SES,1,2138.0,932.0,0.1834763948497854
